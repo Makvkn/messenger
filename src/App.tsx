@@ -1,17 +1,9 @@
-import './styles.css'
+import ChatPage from './pages/chats/ChatPage';
 
 export const App = () => {
     return (
         <>
-            <h1>Hello world</h1>
+            <ChatPage />
         </>
-    )
-}
-
-// 'plugin:import/errors',
-// 'plugin:import/warnings',
-// 'plugin:import/typescript',
-// 'plugin:jsx-a11y/recommended',
-// 'plugin:eslint-comments/recommended',
-// 'prettier/@typescript-eslint',
-// 'plugin:prettier/recommended',
+    );
+};
