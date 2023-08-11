@@ -1,8 +1,18 @@
 import React from 'react';
-// import styles from './ChatPage.module.css';
+import Chat from '../../components/chat/Chat';
+import styles from './ChatPage.module.css';
 
 const ChatPage = () => {
-    return <div>{/*<h1 className={styles.lol}>hello from ChatPage</h1>*/}</div>;
+    return (
+        <div className={styles.chatPage}>
+            <Chat />
+            <Chat />
+            <Chat />
+            <Chat />
+            <Chat />
+            <Chat />
+        </div>
+    );
 };
 
 export default ChatPage;
