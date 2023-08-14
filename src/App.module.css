@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 490px;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .App {
+        border-left: 1px solid #f1f1f1;
+        border-right: 1px solid #f1f1f1;
+    }
+}

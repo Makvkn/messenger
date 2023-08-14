@@ -1,8 +1,9 @@
 import ChatPage from './pages/chats/ChatPage';
+import styles from './App.module.css';
 
 export const App = () => {
     return (
-        <div>
+        <div className={styles.App}>
             <ChatPage />
         </div>
     );
