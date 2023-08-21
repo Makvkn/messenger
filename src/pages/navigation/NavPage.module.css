@@ -1,0 +1,19 @@
+.navigation {
+    border-top: 1px solid #f1f1f1;
+    display: flex;
+    flex-shrink: 0;
+    height: 50px;
+    overflow: hidden;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.navItem {
+    align-items: center;
+    color: #888;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    gap: 2px;
+    height: 100%;
+}
