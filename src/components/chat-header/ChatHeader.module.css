@@ -1,3 +1,13 @@
+.chatHeader {
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    flex-shrink: 0;
+    gap: 15px;
+    height: 60px;
+    padding: 0 20px;
+}
+
 .backToChats {
     border: none;
     border-radius: 0;
@@ -8,4 +18,69 @@
     background: transparent;
     color: #000;
     font-weight: 400;
+}
+
+.nameChat {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.nameChatData span {
+    font-weight: 700;
+    display: block;
+    color: #444;
+    font-size: 10pt;
+}
+
+.menuFrom {
+    position: relative;
+}
+
+.menuFrom button {
+    background: transparent;
+    color: #000;
+    font-weight: 400;
+}
+
+.avatar {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    font-weight: bolder;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: rgb(242, 100, 48);
+    font-size: 20px;
+}
+
+.menu {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, 0.2);
+    max-height: 200px;
+    opacity: 0;
+    overflow: auto;
+    position: fixed;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    transition: all 0.32s cubic-bezier(0.68, -0.6, 0.32, 1.6), top 0s, left 0s;
+    visibility: hidden;
+    width: 180px;
+    z-index: 1;
+}
+
+.menuItem {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 11pt;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    transition: none;
 }
