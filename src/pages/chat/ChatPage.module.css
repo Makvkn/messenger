@@ -1,0 +1,32 @@
+.chatPage {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+.chatHeader {
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    flex-shrink: 0;
+    gap: 15px;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.messagesHistory {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+}
+
+.chatFooter {
+    border-top: 1px solid #f1f1f1;
+    flex-shrink: 0;
+    overflow: hidden;
+}
