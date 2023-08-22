@@ -1,0 +1,11 @@
+.backToChats {
+    border: none;
+    border-radius: 0;
+    min-width: 0;
+    padding: 0;
+    width: auto;
+    align-self: center;
+    background: transparent;
+    color: #000;
+    font-weight: 400;
+}
