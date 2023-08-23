@@ -1,2 +1,8 @@
 .messagesHistory {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
 }

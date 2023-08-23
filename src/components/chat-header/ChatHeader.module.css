@@ -18,6 +18,11 @@
     background: transparent;
     color: #000;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.backToChats svg {
+    width: 24px;
 }
 
 .nameChat {
@@ -26,8 +31,19 @@
     margin-right: auto;
 }
 
-.nameChatData span {
+.nameChat span:first-child {
+    font: 1em Noto Sans, sans-serif;
     font-weight: 700;
+}
+
+.nameChat span:nth-child(2) {
+    font: 1em Noto Sans, sans-serif;
+    color: #444;
+    font-size: 10pt;
+    padding-top: 7px;
+}
+
+.nameChatData span {
     display: block;
     color: #444;
     font-size: 10pt;
@@ -37,10 +53,15 @@
     position: relative;
 }
 
+.menuFrom svg {
+    width: 24px;
+}
+
 .menuFrom button {
     background: transparent;
     color: #000;
     font-weight: 400;
+    border: none;
 }
 
 .avatar {
@@ -65,7 +86,6 @@
     opacity: 0;
     overflow: auto;
     position: fixed;
-    -webkit-transform: translateY(10px);
     transform: translateY(10px);
     transition: all 0.32s cubic-bezier(0.68, -0.6, 0.32, 1.6), top 0s, left 0s;
     visibility: hidden;

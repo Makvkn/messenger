@@ -1,12 +1,15 @@
 import React from "react";
 import styles from "./ChatHeader.module.css";
+import Icon from "../icon/Icon";
+import { useNavigate } from "react-router-dom";
 
 const ChatHeader = () => {
+    const navigate = useNavigate();
     return (
         <div className={styles.chatHeader}>
-            <div className={styles.backToChats}>
-                <img src="" alt="Exit" />
-            </div>
+            <button className={styles.backToChats} onClick={() => navigate("/")}>
+                <Icon icon="arrow-64" />
+            </button>
             <div className={styles.nameChat}>
                 <div className={styles.avatar}>M</div>
                 <div className={styles.nameChatData}>
@@ -17,7 +20,7 @@ const ChatHeader = () => {
             <div className={styles.menuFrom}>
                 <div>
                     <button>
-                        <img src="" alt="profile" />
+                        <Icon icon="menu-dot-vertical-filled" />
                     </button>
                 </div>
             </div>
