@@ -14,9 +14,3 @@
     overflow: auto;
     padding: 20px;
 }
-
-.chatFooter {
-    border-top: 1px solid #f1f1f1;
-    flex-shrink: 0;
-    overflow: hidden;
-}
