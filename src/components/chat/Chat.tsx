@@ -8,9 +8,6 @@ interface Props {
 }
 
 const ChatItem: FC<Props> = (props) => {
-    // const openChat = (e: React.MouseEvent) => {
-    //     console.log(e.target);
-    // };
     const navigate = useNavigate();
     return (
         <div
