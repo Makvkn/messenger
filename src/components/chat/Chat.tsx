@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styles from "./Chat.module.css";
-import { IUser } from "../../pages/chats/ChatsPage";
 import { useNavigate } from "react-router-dom";
+import { IUser } from "../../redux/users/types";
 
 interface Props {
     user: IUser;
