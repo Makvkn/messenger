@@ -1,11 +1,11 @@
-export interface UsersState {
+export interface IUser {
     id: number;
     username: string;
+    lastMessage: string;
 }
 
 // const initialState: UsersState = {};
 //
-// //типизируем стайт и акшины
 // //state
 // import { IUser } from "../../../pages/models/IUser";
 //
