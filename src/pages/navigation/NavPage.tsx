@@ -2,6 +2,7 @@ import React from "react";
 import style from "./NavPage.module.css";
 
 const NavPage = () => {
+    console.log("lll");
     return (
         <div className={style.navigation}>
             <a href="/lol" className={style.navItem}>
